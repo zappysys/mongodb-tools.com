@@ -8,11 +8,11 @@ language: Ruby
 # License (should be listed in _data/attr.yml)
 license: Apache 2.0
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://docs.mongodb.com/manual/support
 
 # homepage url
 officialUrl: http://api.mongodb.org/ruby/current/
@@ -25,11 +25,13 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-- 2.2
 - 2.4
 - 2.6
 - 3.0
 - 3.2
+- 3.4
+- 3.6
+- 4.0
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -47,8 +49,8 @@ description: The officially supported client interface for Ruby applications.
 img: ruby.png
 
 # Release Info
-latest_release_version: 2.2.5
-latest_release_date: 2016-03-01
+latest_release_version: 2.8.0
+latest_release_date: 2019-03-21
 
 # Github Info
 github_user: mongodb

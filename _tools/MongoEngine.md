@@ -8,11 +8,11 @@ language: Python
 # License (should be listed in _data/attr.yml)
 license: MIT
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://github.com/MongoEngine/mongoengine/issues
 
 # homepage url
 officialUrl: http://mongoengine.org/
@@ -26,10 +26,9 @@ environments:
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
 #- 2.2
-- 2.4
-- 2.6
-- 3.0
-- 3.2
+#- 2.4
+#- 2.6
+#- 3.0
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -42,14 +41,13 @@ purpose: Object Document Mapper
 
 # Short description of tool
 description: An ODM library using a simple declarative API similar to the Django ORM.
-slug: mongoengine
 
 # image should be added to the img/ directory, ideally 370x200px
 img: mongoengine.png
 
 # Release Info
-latest_release_version: 0.10.6
-latest_release_date: 2016-01-25
+latest_release_version: 0.18.2
+latest_release_date: 2019-06-26
 
 # Github Info
 github_user: MongoEngine

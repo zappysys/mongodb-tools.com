@@ -8,11 +8,11 @@ language: Java
 # License (should be listed in _data/attr.yml)
 license: Apache 2.0
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://stackoverflow.com/questions/tagged/spring-data-mongodb
 
 # homepage url
 officialUrl: http://projects.spring.io/spring-data-mongodb/
@@ -46,8 +46,8 @@ description: Spring-based, POJO-centric model for interacting with a MongoDB DBC
 img: spring-data-mongodb.png
 
 # Release Info
-latest_release_version: 1.6.2
-latest_release_date: 2015-01-28
+latest_release_version: 2.2.3
+latest_release_date: 2019-12-05
 
 # Github Info
 github_user: spring-projects

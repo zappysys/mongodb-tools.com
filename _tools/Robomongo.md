@@ -1,6 +1,6 @@
 ---
 # Tool name
-name: Robomongo
+name: Robo 3T (formerly Robomongo)
 
 # Software language (if applicable, see _data/attr.yml)
 language: C++
@@ -8,11 +8,11 @@ language: C++
 # License (should be listed in _data/attr.yml)
 license: GNU
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://github.com/Studio3T/robomongo/issues
 
 # homepage url
 officialUrl: http://robomongo.org/
@@ -29,6 +29,9 @@ mongodb_versions:
 - 2.6
 - 3.0
 - 3.2
+- 3.4
+- 3.6
+- 4.0
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version: 2.2
@@ -40,17 +43,17 @@ mongodb_enterprise_support:
 purpose: GUI
 
 # Short description of tool
-description: A desktop application embedding the MongoDB shell and providing identical functionality GUI.
+description: A desktop application embedding the MongoDB shell. A GUI for MongoDB enthusiasts.
 
 # image should be added to the img/ directory, ideally 370x200px
 img: robomongo.png
 
 # Release Info
-latest_release_version: 0.9.0 RC8
-latest_release_date: 2016-04-14
+latest_release_version: 1.3
+latest_release_date: 2019-04-04
 
 # Github Info
-github_user: paralect
+github_user: studio3t
 github_repo: robomongo
 
 # Do not change the following settings

@@ -8,11 +8,11 @@ language: Java
 # License (should be listed in _data/attr.yml)
 license: Apache
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Actively Maintained
 
 # (optional) url of support forum
-support: https://github.com/sboesebeck/morphium
+support: https://github.com/sboesebeck/morphium/issues
 
 # homepage url
 officialUrl: http://sboesebeck.github.io/morphium/
@@ -30,6 +30,9 @@ mongodb_versions:
 #- 2.6
 #- 3.0
 #- 3.2
+- 3.4
+- 3.6
+- 4.0
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -41,14 +44,14 @@ mongodb_enterprise_support:
 purpose: Object Document Mapper
 
 # Short description of tool
-description: Morphium is a full featured POJO Mapper for MongoDB, including cluster awareness, declarative caching and many more features
+description: Morphium is a full featured POJO Mapper for MongoDB, including cluster awareness, declarative caching, and many more features.
 
 # (optional) image should be added to the img/ directory, ideally 370x200px
 img: morphium.png
 
 # (optional) Release Info
-latest_release_version: 3.0.0
-latest_release_date: 2016-05-02
+latest_release_version: 4.0.6
+latest_release_date: 2019-04-18
 
 # (optional) Github Info
 github_user: sboesebeck

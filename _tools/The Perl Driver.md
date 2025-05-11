@@ -8,11 +8,11 @@ language: Perl
 # License (should be listed in _data/attr.yml)
 license: Apache 2.0
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://docs.mongodb.com/manual/support
 
 # homepage url
 officialUrl: https://metacpan.org/module/MongoDB
@@ -29,6 +29,9 @@ mongodb_versions:
 - 2.6
 - 3.0
 - 3.2
+- 3.4
+- 3.6
+- 4.0
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -46,8 +49,8 @@ description: The officially supported client interface for Perl applications.
 img: 
 
 # Release Info
-latest_release_version: 1.4.1
-latest_release_date: 2016-05-18
+latest_release_version: 2.0.3
+latest_release_date: 2019-02-07
 
 # Github Info
 github_user: mongodb

@@ -1,6 +1,5 @@
 - name: purpose
   values:
-  - Analytics
   - Backup
   - Business Intelligence
   - Data Connector
@@ -30,6 +29,7 @@
   - MIT
   - MIT And GPL
   - Simplified BSD
+  - SSPL
   - Unknown
 
 - name: language
@@ -50,5 +50,7 @@
   - Python
   - R
   - Ruby
+  - Rust
   - Scala
+  - Swift
   - Unknown

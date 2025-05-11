@@ -8,11 +8,11 @@ language: Erlang
 # License (should be listed in _data/attr.yml)
 license: Apache 2.0
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://github.com/comtihon/mongodb-erlang/issues
 
 # homepage url
 officialUrl: https://github.com/comtihon/mongodb-erlang
@@ -27,8 +27,9 @@ environments:
 mongodb_versions:
 - 2.4
 - 2.6
-#- 3.0
-#- 3.2
+- 3.0
+- 3.2
+- 3.4
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -46,8 +47,8 @@ description: MongoDB client interface for Erlang applications.
 img: 
 
 # Release Info
-latest_release_version: 0.9.8
-latest_release_date: 2016-04-05
+latest_release_version: 3.2.0
+latest_release_date: 2018-03-24
 
 # Github Info
 github_user: comtihon

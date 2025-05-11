@@ -8,11 +8,11 @@ language: Python
 # License (should be listed in _data/attr.yml)
 license: Apache
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://github.com/rueckstiess/mtools/issues
 
 # homepage url
 officialUrl: https://github.com/rueckstiess/mtools
@@ -25,10 +25,9 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-- 2.2
-- 2.4
-- 2.6
-- 3.0
+- 3.6
+- 4.0
+- 4.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -46,8 +45,8 @@ description: A collection of helper scripts to set up MongoDB test environments 
 img: mtools.png
 
 # Release Info
-latest_release_version: 1.2.1
-latest_release_date: 2016-03-22
+latest_release_version: 1.6.0
+latest_release_date: 2019-12-28
 
 # Github Info
 github_user: rueckstiess

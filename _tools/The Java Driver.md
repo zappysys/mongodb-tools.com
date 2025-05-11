@@ -1,6 +1,6 @@
 ---
 # Tool name
-name: The Java Driver
+name: MongoDB Java Driver
 
 # Software language (if applicable, see _data/attr.yml)
 language: Java
@@ -8,11 +8,11 @@ language: Java
 # License (should be listed in _data/attr.yml)
 license: Apache
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://docs.mongodb.com/manual/support
 
 # homepage url
 officialUrl: http://mongodb.github.io/mongo-java-driver/
@@ -29,6 +29,9 @@ mongodb_versions:
 - 2.6
 - 3.0
 - 3.2
+- 3.4
+- 3.6
+- 4.0
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -46,8 +49,8 @@ description: The officially supported client interface for Java applications.
 img: 
 
 # Release Info
-latest_release_version: 3.2.2
-latest_release_date: 2016-02-16
+latest_release_version: 3.10.2
+latest_release_date: 2019-04-08
 
 # Github Info
 github_user: mongodb

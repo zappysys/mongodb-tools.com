@@ -8,11 +8,11 @@ language: R
 # License (should be listed in _data/attr.yml)
 license: GNU
 
-# Maintained: "Actively Maintained" or "Inactive"
-maintained: Actively Maintained
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
+maintained: Inactive since 2013
 
 # (optional) url of support forum
-support: 
+support: https://github.com/tc/RMongo/issues
 
 # homepage url
 officialUrl: https://github.com/tc/RMongo

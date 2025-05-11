@@ -8,11 +8,11 @@ language: Java
 # License (should be listed in _data/attr.yml)
 license: AGPL
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: http://restheart.org/support.html
 
 # homepage url
 officialUrl: http://restheart.org/
@@ -29,6 +29,9 @@ mongodb_versions:
 #- 2.4
 #- 2.6
 #- 3.0
+- 3.4
+- 3.6
+- 4.0
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -46,8 +49,8 @@ description: Java REST API server for MongoDB, built on top of Undertow non-bloc
 img: restheart.jpg
 
 # Release Info
-latest_release_version: 0.10.0
-latest_release_date: 2015-02-15
+latest_release_version: 4.1.7
+latest_release_date: 2019-12-16
 
 # Github Info
 github_user: SoftInstigate

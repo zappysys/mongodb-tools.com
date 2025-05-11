@@ -8,14 +8,14 @@ language: Java
 # License (should be listed in _data/attr.yml)
 license: Apache 2.0
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://groups.google.com/group/morphia
 
 # homepage url
-officialUrl: https://github.com/mongodb/morphia
+officialUrl: http://morphiaorg.github.io/morphia/
 
 # supported operating systems (if applicable)
 environments:
@@ -25,11 +25,12 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-- 2.2
-- 2.4
-- 2.6
-- 3.0
-- 3.2
+#- 2.2
+#- 2.4
+#- 2.6
+#- 3.0
+#- 3.2
+#- 3.4
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -47,8 +48,8 @@ description: A lightweight type-safe library for mapping Java objects to/from Mo
 img: 
 
 # Release Info
-latest_release_version: 1.1.1
-latest_release_date: 2016-01-27
+latest_release_version: 1.5.8
+latest_release_date: 2019-10-31
 
 # Github Info
 github_user: mongodb

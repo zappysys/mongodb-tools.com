@@ -8,34 +8,38 @@ language: Ruby
 # License (should be listed in _data/attr.yml)
 license: MIT
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://docs.mongodb.com/manual/support
 
 # homepage url
-officialUrl: https://docs.mongodb.com/ecosystem/tutorial/ruby-mongoid-tutorial/
+officialUrl: https://docs.mongodb.com/mongoid/current/
 
 # supported operating systems (if applicable)
 environments:
-- apple
-- linux
-- windows
+  - apple
+  - linux
+  - windows
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-#- 2.2
-- 2.4
-- 2.6
-- 3.0
-- 3.2
+  #- 2.2
+  #- 2.4
+  - 2.6
+  - 3.0
+  - 3.2
+  - 3.4
+  - 3.6
+  - 4.0
+  - 4.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
 
 # (optional) Support for MongoDB Enterprise features? None, Limited, Full
-mongodb_enterprise_support: 
+mongodb_enterprise_support:
 
 # Purpose (see _data/attr.yml for valid choices)
 purpose: Object Document Mapper
@@ -47,8 +51,8 @@ description: A library providing a familiar API to Ruby developers who have used
 img: mongoid.png
 
 # Tool Release Info
-latest_release_version: 5.1.3
-latest_release_date: 2016-04-21
+latest_release_version: 7.0.5
+latest_release_date: 2019-09-19
 
 # Github Info
 github_user: mongodb
@@ -56,5 +60,4 @@ github_repo: mongoid
 
 # Do not change the following settings
 layout: tool
-
 ---

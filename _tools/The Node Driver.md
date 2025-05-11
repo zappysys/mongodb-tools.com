@@ -1,6 +1,6 @@
 ---
 # Tool name
-name: The Node.js Driver
+name: MongoDB Node.js Driver
 
 # Software language (if applicable, see _data/attr.yml)
 language: JavaScript
@@ -8,11 +8,11 @@ language: JavaScript
 # License (should be listed in _data/attr.yml)
 license: Apache 2.0
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://docs.mongodb.com/manual/support
 
 # homepage url
 officialUrl: http://mongodb.github.io/node-mongodb-native/2.1/
@@ -29,6 +29,9 @@ mongodb_versions:
 - 2.6
 - 3.0
 - 3.2
+- 3.4
+- 3.6
+- 4.0
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -46,8 +49,8 @@ description: The officially supported client interface for Node.js applications.
 img: node.png
 
 # Release Info
-latest_release_version: 2.1.20
-latest_release_date: 2016-05-25
+latest_release_version: 3.2.1
+latest_release_date: 2019-03-21
 
 # Github Info
 github_user: mongodb

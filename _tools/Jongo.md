@@ -8,11 +8,11 @@ language: Java
 # License (should be listed in _data/attr.yml)
 license: Apache
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Actively Maintained
 
 # (optional) url of support forum
-support: 
+support: https://github.com/bguerout/jongo/issues
 
 # homepage url
 officialUrl: https://github.com/bguerout/jongo
@@ -46,8 +46,8 @@ description: Jongo allows querying in Java as in the Mongo shell; unmarshalling 
 img: jongo.jpg
 
 # (optional) Release Info
-latest_release_version: 1.3.0
-latest_release_date: 2016-04-02
+latest_release_version: 1.4.0
+latest_release_date: 2019-03-26
 
 # (optional) Github Info
 github_user: bguerout

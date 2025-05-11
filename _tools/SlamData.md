@@ -8,7 +8,7 @@ language: Scala/Purescript
 # License (should be listed in _data/attr.yml)
 license: AGPL
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Actively Maintained
 
 # url of support forum
@@ -40,14 +40,14 @@ mongodb_enterprise_support:
 purpose: Data Connector
 
 # Short description of tool
-description: Open Source project that allows users to write SQL directly against MongoDB data.  
+description: Embedded reporting/Business Intelligence for MongoDB. Create reports visually or via SQL. Queries are done in-database so no need for ETL or mapping.
 
 # image should be added to the img/ directory, ideally 370x200px
 img: slamdata.png
 
 # Release Info
-latest_release_version: 1.3.2
-latest_release_date: 2015-03-05
+latest_release_version: 4.2.4
+latest_release_date: 2017-07-05
 
 # Github Info
 github_user: slamdata

@@ -8,7 +8,7 @@ language: Unknown
 # License (should be listed in _data/attr.yml)
 license: Unknown
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Actively Maintained
 
 # (optional) url of support forum
@@ -25,10 +25,9 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-#- 2.2
-#- 2.4
-#- 2.6
-#- 3.0
+#- 3.6
+#- 4.0
+#- 4.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:

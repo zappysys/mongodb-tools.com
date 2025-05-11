@@ -8,11 +8,11 @@ language: Java
 # License (should be listed in _data/attr.yml)
 license: Apache
 
-# Maintained: "Actively Maintained" or "Inactive"
-maintained: Actively Maintained
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
+maintained: Inactive since 2015
 
 # (optional) url of support forum
-support: 
+support: https://github.com/poiati/gmongo/issues
 
 # homepage url
 officialUrl: https://github.com/poiati/gmongo

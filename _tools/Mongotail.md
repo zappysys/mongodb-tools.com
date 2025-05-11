@@ -1,57 +1,56 @@
 ---
 # Tool name
-name: Analytica
+name: Mongotail
 
 # Software language (if applicable, see _data/attr.yml)
-language: Unknown
+language: Python
 
 # License (should be listed in _data/attr.yml)
-license: Commercial
+license: GPL
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Actively Maintained
 
 # url of support forum
 support: 
 
 # homepage url
-officialUrl: http://www.lumina.com/products/analytica-editions/
+officialUrl: https://github.com/mrsarm/mongotail
 
 # supported operating systems (if applicable)
 environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-#- 2.2
-#- 2.4
 #- 2.6
 #- 3.0
+#- 3.2
+#- 3.4
 
 # (optional) minimum MongoDB version
-minimum_mongodb_version:
+minimum_mongodb_version: 2.6
 
 # (optional) Support for MongoDB Enterprise features? None, Limited, Full
 mongodb_enterprise_support: 
 
 # Purpose (see _data/attr.yml for valid choices)
-purpose: Business Intelligence
+purpose: Monitoring
 
 # Short description of tool
-description: A JSON-native analytics product that avoids ETL or data transformation by providing a language based on a hierarchical algebra that supports operating on document structures directly.
+description: Command line tool to outputs any operation from a Mongo database in the standard output. You can see the operations collected by the database profiler from a console, or redirect the result to a file, pipes it with grep or other command line tool in real time, etc.
 
 # image should be added to the img/ directory, ideally 370x200px
-img: analytica.png
+img: mongotail.png
 
 # Release Info
-latest_release_version: 4.5
-latest_release_date: 2014-02-14
+latest_release_version: 2.3.0
+latest_release_date: 2019-03-17
 
 # Github Info
-github_user: 
-github_repo: 
+github_user: mrsarm
+github_repo: mongotail
 
 # Do not change the following settings
 layout: tool
 
 ---
-

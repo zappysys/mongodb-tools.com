@@ -8,11 +8,11 @@ language: JavaScript
 # License (should be listed in _data/attr.yml)
 license: MIT
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: http://groups.google.com/group/mongoose-orm
 
 # homepage url
 officialUrl: http://mongoosejs.com/
@@ -25,11 +25,15 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-- 2.2
+#- 2.2
 - 2.4
 - 2.6
 - 3.0
 - 3.2
+- 3.4
+- 3.6
+- 4.0
+- 4.2
 
 # (optional) minimum MongoDB version
 minimum_mongodb_version:
@@ -47,8 +51,8 @@ description: A library providing elegant MongoDB object modeling for Node.js.
 img: mongoose.png
 
 # Release Info
-latest_release_version: 4.4.19
-latest_release_date: 2016-05-21
+latest_release_version: 5.8.2
+latest_release_date: 2019-12-21
 
 # Github Info
 github_user: Automattic

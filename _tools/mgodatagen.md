@@ -1,21 +1,21 @@
 ---
 # Tool name
-name: 3T MongoChef
+name: mgodatagen
 
 # Software language (if applicable, see _data/attr.yml)
-# language: Java
+language: Go
 
 # License (should be listed in _data/attr.yml)
-license: Commercial
+license: MIT
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://github.com/feliixx/mgodatagen/issues
 
 # homepage url
-officialUrl: http://3t.io/mongochef
+officialUrl: https://github.com/feliixx/mgodatagen
 
 # supported operating systems (if applicable)
 environments:
@@ -25,33 +25,32 @@ environments:
 
 # (optional) fully supported MongoDB versions that have been tested
 mongodb_versions:
-- 2.4
-- 2.6
-- 3.0
-- 3.2
+- 3.6
+- 4.0
+- 4.2
 
 # (optional) minimum MongoDB version
-minimum_mongodb_version:
+minimum_mongodb_version: 2.6
 
 # (optional) Support for MongoDB Enterprise features? None, Limited, Full
 mongodb_enterprise_support: 
 
 # Purpose (see _data/attr.yml for valid choices)
-purpose: GUI
+purpose: Diagnostics & Performance Tuning
 
 # Short description of tool
-description: 3T MongoChef is a MongoDB GUI for Mac, Windows, and Linux. 3T MongoChef is free for personal and non-commercial use. Full support for MongoDB 3.0
+description: A small CLI tool to quickly generate millions of pseudo-random BSON documents and insert them into a MongoDB instance. Test how your application responds when your database grows.
 
 # image should be added to the img/ directory, ideally 370x200px
-img: 3t-mongochef.png
+img: 
 
 # Release Info
-latest_release_version: 3.0.7
-latest_release_date: 2015-11-03
+latest_release_version: 0.7.5
+latest_release_date: 2019-07-08
 
 # Github Info
-github_user: 
-github_repo: 
+github_user: feliixx
+github_repo: mgodatagen
 
 # Do not change the following settings
 layout: tool

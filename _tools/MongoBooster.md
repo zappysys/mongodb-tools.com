@@ -8,11 +8,11 @@ language: Javascript
 # License (should be listed in _data/attr.yml)
 license: Commercial
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Actively Maintained
 
 # url of support forum
-support: 
+support: https://mongobooster.useresponse.com
 
 # homepage url
 officialUrl: http://mongobooster.com
@@ -30,9 +30,13 @@ mongodb_versions:
 - 2.6
 - 3.0
 - 3.2
+- 3.4
+- 3.6
+- 4.0
+- 4.2
 
 # (optional) minimum MongoDB version
-minimum_mongodb_version:
+minimum_mongodb_version: 2.2
 
 # (optional) Support for MongoDB Enterprise features? None, Limited, Full
 mongodb_enterprise_support: Full
@@ -47,8 +51,8 @@ description: MongoBooster is a shell-centric cross-platform GUI which includes f
 img: mongobooster.png
 
 # Release Info
-latest_release_version: 2.0.1
-latest_release_date: 2016-05-24
+latest_release_version: 5.2
+latest_release_date: 2019-12-11
 
 # Github Info
 github_user: 

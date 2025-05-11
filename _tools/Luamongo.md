@@ -8,11 +8,11 @@ language: Lua
 # License (should be listed in _data/attr.yml)
 license: MIT
 
-# Maintained: "Actively Maintained" or "Inactive"
-maintained: Actively Maintained
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
+maintained: Inactive since 2017
 
 # (optional) url of support forum
-support: http://groups.google.com/group/luamongo
+support: https://groups.google.com/group/luamongo
 
 # homepage url
 officialUrl: https://github.com/moai/luamongo

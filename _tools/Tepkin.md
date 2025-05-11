@@ -8,14 +8,14 @@ language: Scala
 # License (should be listed in _data/attr.yml)
 license: Apache
 
-# Maintained: "Actively Maintained" or "Inactive"
+# Maintained: "Actively Maintained", "Inactive", "Unknown"
 maintained: Actively Maintained
 
 # (optional) url of support forum
-support: 
+support: https://github.com/jeroenr/tepkin/issues
 
 # homepage url
-officialUrl: https://github.com/fehmicansaglam/tepkin
+officialUrl: https://github.com/jeroenr/tepkin
 
 # supported operating systems (if applicable)
 environments:
